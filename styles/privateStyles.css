@@ -1,11 +1,22 @@
 
-#topBar {
+#leftBar {
     position: fixed;
+    height: 100%;
+    width: 14%;
+    background-color: rgb(14, 14, 14);
+
+    transition: all 0.5s;
+}
+
+#leftBar:hover {
+    width: 16%;
+    transition: all 0.5s;
+}
+
+#topBar {
     width: 100%;
     height: 5%;
     display: flex;
     justify-content: center;
     justify-content: space-between;
-
-    background-color: rgb(14, 14, 14);
 }

@@ -10,3 +10,9 @@ p {
 .boldText {
     font-weight: 800;
 }
+
+.verticalLine {
+    height: 90%;
+    width: 1px;
+    background-color: rgb(105, 105, 105);
+}
